@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3be587084740221044a3a3c9316d4372" label="Bases" max_length="40" name="x_1488662_bases_bases" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Temperature" max_length="40" name="temperature" type="float"/>
+        <element label="Max Capacity" max_length="40" name="max_capacity" type="integer"/>
+        <element display="true" label="Base Name" max_length="40" name="base_name" type="string"/>
+        <element label="Base Manager" max_length="32" name="base_manager" reference="sys_user" type="reference"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <index name="index">
+            <element name="base_manager"/>
+        </index>
+    </element>
+</database>
