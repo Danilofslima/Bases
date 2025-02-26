@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1488662_bases.integration_host</name>
+        <read_roles/>
+        <suffix>integration_host</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 19:43:38</sys_created_on>
+        <sys_id>3d6a7c144788221044a3a3c9316d4340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1488662_bases.integration_host</sys_name>
+        <sys_package display_value="Bases" source="x_1488662_bases">fa1587c44740221044a3a3c9316d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bases">fa1587c44740221044a3a3c9316d431e</sys_scope>
+        <sys_update_name>sys_properties_3d6a7c144788221044a3a3c9316d4340</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 19:43:38</sys_updated_on>
+        <type>string</type>
+        <value>yahoo-weather5.p.rapidapi.com</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=3d6a7c144788221044a3a3c9316d4340"/>
+</record_update>
