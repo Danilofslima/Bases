@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1488662_bases.BasesUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>BasesUtils</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var BasesUtils = Class.create();
+BasesUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    checkManagerBase: function() {
+        var manager = this.getParameter('sysparm_manager');
+        var arr = [];
+        var grManager = new GlideRecord('x_1488662_bases_bases');
+        grManager.addActiveQuery();
+        grManager.addQuery('base_manager', manager);
+        grManager.query();
+
+        while (grManager.next()) {
+            arr.push(grManager.sys_id.toString());
+        }
+
+        return arr.length > 0 ? arr.join(',') : 'none';
+    },
+
+    refQualTask7: function() {
+        var basesNotToBeShown = [];
+        var grBasesList = new GlideRecord('x_1488662_bases_admission');
+        grBasesList.addQuery("opened_by", gs.getUserID());
+        grBasesList.addQuery("state", "!=", 4);
+        grBasesList.query();
+
+        while (grBasesList.next()) {
+            basesNotToBeShown.push(grBasesList.base.toString()); 
+        }
+
+        if (basesNotToBeShown.length > 0) {
+            return "sys_idINnone";
+        }
+
+        var basesToBeShown = [];
+        var grShow = new GlideRecord("x_1488662_bases_bases");
+        grShow.addQuery('max_capacity', ">", 0); 
+        grShow.query();
+
+        while (grShow.next()) {
+            var baseSysId = grShow.getUniqueValue();
+            basesToBeShown.push(baseSysId);
+        }
+
+        return "sys_idIN" + (basesToBeShown.length > 0 ? basesToBeShown.join(",") : "none");
+    },
+
+    type: 'BasesUtils'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-27 12:40:23</sys_created_on>
+        <sys_id>346224a44780221044a3a3c9316d4319</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>BasesUtils</sys_name>
+        <sys_package display_value="Bases" source="x_1488662_bases">fa1587c44740221044a3a3c9316d431e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Bases">fa1587c44740221044a3a3c9316d431e</sys_scope>
+        <sys_update_name>sys_script_include_346224a44780221044a3a3c9316d4319</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-27 19:18:22</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>346224a44780221044a3a3c9316d4319</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-27 12:40:23</sys_created_on>
+        <sys_id>ff1320a04780221044a3a3c9316d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-27 12:40:23</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

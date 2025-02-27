@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1488662_bases_bases</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Prevent Bases Duplication</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+    var gr = new GlideRecord(current.getTableName());
+
+    // Check if a base with the same name already exists
+    gr.addQuery('base_name', current.base_name);
+    gr.query();
+    if (gr.next()) {
+        gs.addErrorMessage('A base with the same name already exists: ' + current.base_name);
+        current.setAbortAction(true);
+        return;
+    }
+
+    // Check if another record with the same city + state exists
+    gr.initialize();  // Reset the GlideRecord object
+    gr.addQuery('city', current.city);
+    gr.addQuery('state', current.state);
+    gr.query();
+    if (gr.next()) {
+        gs.addErrorMessage('A base is already registered in ' + current.city + '/' + current.state);
+        current.setAbortAction(true);
+    }
+
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-27 13:44:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d91b82847c0221044a3a3c9316d43f8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Prevent Bases Duplication</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bases" source="x_1488662_bases">fa1587c44740221044a3a3c9316d431e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bases">fa1587c44740221044a3a3c9316d431e</sys_scope>
+        <sys_update_name>sys_script_6d91b82847c0221044a3a3c9316d43f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-27 13:57:30</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=6d91b82847c0221044a3a3c9316d43f8"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>6d91b82847c0221044a3a3c9316d43f8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-27 13:44:20</sys_created_on>
+        <sys_id>50c1b02847c0221044a3a3c9316d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-27 13:44:20</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
