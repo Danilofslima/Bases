@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>eb8bfc184788221044a3a3c9316d43da</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Integration Playground API</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bases" source="x_1488662_bases">fa1587c44740221044a3a3c9316d431e</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Bases">fa1587c44740221044a3a3c9316d431e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_eb8bfc184788221044a3a3c9316d43da</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 20:47:18</sys_updated_on>
+        <sys_updated_on>2025-02-27 01:26:38</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -114,7 +114,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Integration Playground API">eb8bfc184788221044a3a3c9316d43da</action>
         <cid>ed1c43f5-1a01-41b2-87bf-368d653ca6ae</cid>
-        <error_handling_type>1</error_handling_type>
+        <error_handling_type>2</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -128,10 +128,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-26 20:01:12</sys_created_on>
         <sys_id>176efc1c4788221044a3a3c9316d43e9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Bases">fa1587c44740221044a3a3c9316d431e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 20:47:15</sys_updated_on>
+        <sys_updated_on>2025-02-27 01:26:35</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=176efc1c4788221044a3a3c9316d43e9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -313,9 +313,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-26 20:03:01</sys_created_on>
         <sys_id>31de785c4788221044a3a3c9316d4343</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 20:47:15</sys_updated_on>
+        <sys_updated_on>2025-02-27 01:26:35</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value>{"type":"ADV_NV","value":[{"name":"x-rapidapi-key","value":"{{step[aab0114d-e732-437c-b72d-f5b4e2460d7b].apikey}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"x-rapidapi-host","value":"","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
@@ -363,7 +363,7 @@
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Integration Playground API">eb8bfc184788221044a3a3c9316d43da</action>
         <cid>05dd216b-5e1b-44de-bfe1-79ace3e5dfb5</cid>
-        <error_handling_type>1</error_handling_type>
+        <error_handling_type>2</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -377,10 +377,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-26 20:40:56</sys_created_on>
         <sys_id>918789d447c8221044a3a3c9316d4350</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Bases">fa1587c44740221044a3a3c9316d431e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 20:40:57</sys_updated_on>
+        <sys_updated_on>2025-02-27 00:57:54</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=918789d447c8221044a3a3c9316d4350"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -585,7 +585,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>618789d447c8221044a3a3c9316d4354</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -593,7 +593,7 @@
         <sys_scope display_value="Bases">fa1587c44740221044a3a3c9316d431e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 20:47:15</sys_updated_on>
+        <sys_updated_on>2025-02-27 01:26:35</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -1450,14 +1450,14 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-26 19:49:34</sys_created_on>
         <sys_id>30cbf8584788221044a3a3c9316d431f</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Bases">fa1587c44740221044a3a3c9316d431e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 20:47:16</sys_updated_on>
+        <sys_updated_on>2025-02-27 01:26:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1571,7 +1571,7 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d1e7811847c8221044a3a3c9316d4353</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1579,7 +1579,7 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
         <sys_scope display_value="Bases">fa1587c44740221044a3a3c9316d431e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 20:47:16</sys_updated_on>
+        <sys_updated_on>2025-02-27 01:26:35</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -1809,17 +1809,17 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Integration Playground API">eb8bfc184788221044a3a3c9316d43da</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b6f80d5847c8221044a3a3c9316d4385","name":"plan","plan_signature":null}}</plan>
-        <snapshot>aef80d5847c8221044a3a3c9316d4318</snapshot>
+        <snapshot>92e882d44700621044a3a3c9316d43b7</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-26 20:47:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b6f80d5847c8221044a3a3c9316d4385</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 20:47:19</sys_updated_on>
+        <sys_updated_on>2025-02-27 01:26:39</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2527,7 +2527,7 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Integration Playground API">9af8c95847c8221044a3a3c9316d433d</action>
         <cid>05dd216b-5e1b-44de-bfe1-79ace3e5dfb5</cid>
-        <error_handling_type>1</error_handling_type>
+        <error_handling_type>2</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -2541,10 +2541,10 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-26 20:47:18</sys_created_on>
         <sys_id>1af8c95847c8221044a3a3c9316d43da</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Bases">fa1587c44740221044a3a3c9316d431e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 20:47:18</sys_updated_on>
+        <sys_updated_on>2025-02-27 01:00:47</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1af8c95847c8221044a3a3c9316d43da"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2749,7 +2749,7 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1af8c95847c8221044a3a3c9316d43dd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2757,7 +2757,7 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
         <sys_scope display_value="Bases">fa1587c44740221044a3a3c9316d431e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 20:47:18</sys_updated_on>
+        <sys_updated_on>2025-02-27 01:26:37</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2871,7 +2871,7 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Integration Playground API">9af8c95847c8221044a3a3c9316d433d</action>
         <cid>ed1c43f5-1a01-41b2-87bf-368d653ca6ae</cid>
-        <error_handling_type>1</error_handling_type>
+        <error_handling_type>2</error_handling_type>
         <extended_inputs/>
         <extended_outputs/>
         <icon/>
@@ -2885,10 +2885,10 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-26 20:47:17</sys_created_on>
         <sys_id>1ef8c95847c8221044a3a3c9316d43bf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Bases">fa1587c44740221044a3a3c9316d431e</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 20:47:17</sys_updated_on>
+        <sys_updated_on>2025-02-27 01:26:37</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1ef8c95847c8221044a3a3c9316d43bf"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3215,7 +3215,7 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e6f8c95847c8221044a3a3c9316d43f5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3223,7 +3223,7 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
         <sys_scope display_value="Bases">fa1587c44740221044a3a3c9316d431e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 20:47:18</sys_updated_on>
+        <sys_updated_on>2025-02-27 01:26:37</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
@@ -3465,14 +3465,14 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-26 20:47:18</sys_created_on>
         <sys_id>e6f8c95847c8221044a3a3c9316d43ff</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Bases">fa1587c44740221044a3a3c9316d431e</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 20:47:18</sys_updated_on>
+        <sys_updated_on>2025-02-27 01:26:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3498,7 +3498,7 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-02-26 20:47:18</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e6f80d5847c8221044a3a3c9316d4318^sys_idNOT IN2ef80d5847c8221044a3a3c9316d4318,aaf80d5847c8221044a3a3c9316d4318"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e6f80d5847c8221044a3a3c9316d4318^sys_idNOT IN1ae882d44700621044a3a3c9316d43b6,96e882d44700621044a3a3c9316d43b6"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 26/02/2025 17:47:18">e6f80d5847c8221044a3a3c9316d4318</action_status_metadata_id>
         <condition>{{step[ed1c43f5-1a01-41b2-87bf-368d653ca6ae].__step_status__.code}}=1</condition>
@@ -3507,11 +3507,11 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
         <order>2</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"500"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration error: Step parse"}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-26 20:47:18</sys_created_on>
-        <sys_id>2ef80d5847c8221044a3a3c9316d4318</sys_id>
+        <sys_created_on>2025-02-27 01:26:38</sys_created_on>
+        <sys_id>1ae882d44700621044a3a3c9316d43b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 20:47:18</sys_updated_on>
+        <sys_updated_on>2025-02-27 01:26:38</sys_updated_on>
     </sys_hub_status_condition>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
         <action_status_metadata_id display_value="Created 26/02/2025 17:47:18">e6f80d5847c8221044a3a3c9316d4318</action_status_metadata_id>
@@ -3521,11 +3521,11 @@ outputs.u = gs.getProperty('x_1488662_bases.integration_u', "");&#13;
         <order>1</order>
         <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":"500"}},"message":{"$cv":{"$c":"java.lang.String","$v":"Integration error: Check endpoint"}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-26 20:47:18</sys_created_on>
-        <sys_id>aaf80d5847c8221044a3a3c9316d4318</sys_id>
+        <sys_created_on>2025-02-27 01:26:38</sys_created_on>
+        <sys_id>96e882d44700621044a3a3c9316d43b6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-26 20:47:18</sys_updated_on>
+        <sys_updated_on>2025-02-27 01:26:38</sys_updated_on>
     </sys_hub_status_condition>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9af8c95847c8221044a3a3c9316d433d^sys_idNOT IN9ef8c95847c8221044a3a3c9316d4375"/>
     <sys_documentation action="INSERT_OR_UPDATE">

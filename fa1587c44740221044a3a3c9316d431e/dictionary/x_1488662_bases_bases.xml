@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="3be587084740221044a3a3c9316d4372" label="Bases" max_length="40" name="x_1488662_bases_bases" type="collection">
+    <element audit="true" db_object_id="3be587084740221044a3a3c9316d4372" label="Bases" max_length="40" name="x_1488662_bases_bases" type="collection">
         <element label="City" max_length="40" name="city" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Temperature" max_length="40" name="temperature" type="float"/>
+        <element choice="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integrating" sequence="100" value="Integrating"/>
+                <element inactive_on_update="false" label="Integration Failure" sequence="200" value="Integration Failure"/>
+                <element inactive_on_update="false" label="Integration Success" sequence="300" value="Integration Success"/>
+            </choice>
+        </element>
         <element label="Max Capacity" max_length="40" name="max_capacity" type="integer"/>
         <element display="true" label="Base Name" max_length="40" name="base_name" type="string"/>
         <element label="Base Manager" max_length="32" name="base_manager" reference="sys_user" type="reference"/>
+        <element label="Integration Error Message" max_length="40" name="integration_error_message" type="string"/>
         <element label="Longitude" max_length="40" name="longitude" type="float"/>
         <element label="State" max_length="40" name="state" type="string"/>
         <element label="Latitude" max_length="40" name="latitude" type="float"/>
