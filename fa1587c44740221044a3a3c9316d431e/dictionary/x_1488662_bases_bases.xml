@@ -12,9 +12,11 @@
             </choice>
         </element>
         <element label="Max Capacity" max_length="40" name="max_capacity" type="integer"/>
+        <element label="Available Seats" max_length="40" name="available_seats" type="boolean"/>
         <element display="true" label="Base Name" max_length="40" name="base_name" type="string"/>
         <element label="Base Manager" max_length="32" name="base_manager" reference="sys_user" type="reference"/>
         <element label="Integration Error Message" max_length="40" name="integration_error_message" type="string"/>
+        <element label="Full" max_length="40" name="full" type="boolean"/>
         <element label="Longitude" max_length="40" name="longitude" type="float"/>
         <element label="State" max_length="40" name="state" type="string"/>
         <element label="Latitude" max_length="40" name="latitude" type="float"/>
