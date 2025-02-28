@@ -2,7 +2,7 @@
     <par_dashboard_tab action="INSERT_OR_UPDATE">
         <active>true</active>
         <background_color/>
-        <dashboard display_value="Bases">7e34aea0470c221044a3a3c9316d43a9</dashboard>
+        <dashboard display_value="Bases Overview">7e34aea0470c221044a3a3c9316d43a9</dashboard>
         <name>New Tab 1</name>
         <order>0</order>
         <sys_class_name>par_dashboard_tab</sys_class_name>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
     <par_dashboard_visibility action="INSERT_OR_UPDATE">
-        <dashboard display_value="Bases">7e34aea0470c221044a3a3c9316d43a9</dashboard>
+        <dashboard display_value="Bases Overview">7e34aea0470c221044a3a3c9316d43a9</dashboard>
         <experience display_value="Platform Analytics">08c73d60537101100834ddeeff7b1287</experience>
         <sys_class_name>par_dashboard_visibility</sys_class_name>
         <sys_created_by>admin</sys_created_by>
