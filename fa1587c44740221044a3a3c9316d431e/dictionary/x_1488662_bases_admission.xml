@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="343807c84740221044a3a3c9316d438d" extends="task" label="Admission" max_length="40" name="x_1488662_bases_admission" type="collection">
-        <element label="Base" max_length="32" name="base" reference="x_1488662_bases_bases" type="reference"/>
-        <element label="Job Position" max_length="32" name="job_position" reference="x_1488662_bases_position" type="reference"/>
         <element label="Requested For" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="Base" max_length="32" name="base" reference="x_1488662_bases_bases" type="reference"/>
+        <element label="Job Position" max_length="32" name="job_position" reference="x_1488662_bases_position" reference_qual="name!=Base Manager^EQ" reference_qual_condition="name!=Base Manager^EQ" type="reference"/>
     </element>
 </database>
