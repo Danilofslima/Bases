@@ -5,7 +5,7 @@
         <element label="Integration Error Message" max_length="40" name="integration_error_message" type="string"/>
         <element label="Latitude" max_length="40" name="latitude" type="float"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="All Capacity Fulfilled" max_length="40" name="full" read_only="true" type="boolean"/>
+        <element label="All Requests Approved" max_length="40" name="full" read_only="true" type="boolean"/>
         <element label="Longitude" max_length="40" name="longitude" type="float"/>
         <element label="City" max_length="40" name="city" type="string"/>
         <element label="Temperature (ºC)" max_length="40" name="temperature" type="float"/>
