@@ -1,44 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="b4a70b884740221044a3a3c9316d43a1" sys_domain="global" table="x_1488662_bases_position" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 11:22:14</sys_created_on>
-            <sys_id>0da70b884740221044a3a3c9316d43a4</sys_id>
+            <sys_created_on>2025-03-04 00:27:53</sys_created_on>
+            <sys_id>1a6b2f75c30822104b88b7ddd401316e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_bases_position" sys_domain="global" view="Default view">b4a70b884740221044a3a3c9316d43a1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 11:22:14</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>name</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 11:30:41</sys_created_on>
-            <sys_id>c999474c4740221044a3a3c9316d43c8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1488662_bases_position" sys_domain="global" view="Default view">b4a70b884740221044a3a3c9316d43a1</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 11:30:41</sys_updated_on>
+            <sys_updated_on>2025-03-04 00:27:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 11:30:41</sys_created_on>
-            <sys_id>0199c74c4740221044a3a3c9316d439d</sys_id>
+            <sys_created_on>2025-03-04 00:27:53</sys_created_on>
+            <sys_id>166b2f75c30822104b88b7ddd401316f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1488662_bases_position" sys_domain="global" view="Default view">b4a70b884740221044a3a3c9316d43a1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 11:30:41</sys_updated_on>
+            <sys_updated_on>2025-03-04 00:27:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
